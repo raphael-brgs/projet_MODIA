@@ -42,7 +42,7 @@ Ce fichier sera exécuté comme un script et devra:
 
 * Dans un fichier recommender_app.py , utilisez [gradio](https://gradio.app/) pour créer une application permettant de prédire si un commentaire, entré par l'utilisateur, est positif ou négatif (utilisez le composant [textbox](https://gradio.app/docs/#textbox)).
 
-*   En bonus créez un dockerfile permettant de lancer le script ou l'application gradio depuis n'importe quelle machine.
+*   __Bonus__: créez un dockerfile permettant de lancer le script ou l'application gradio depuis n'importe quelle machine.
 
 Pour le livrable:
 
@@ -51,7 +51,7 @@ Pour le livrable:
 *   Rajoutez les fichiers ```model.py```, ```main.py``` et ```recommender_app.py``` dans le repo Git.	
 *   Modifiez le readme pour qu'il affiche vos noms et la commande permettant de lancer correctement le script ```main.py``` et l'application (ne mettez pas les fichiers de données dans le repo github!)
 * Faites moi un pull request sur GitHub et envoyez moi un mail à david.bertoin@irt-saintexupery.com pour que je vérifie que tout est OK.
-* Si vous avez fait le dockerfile, rajoutez dans le readme les commandes à exécuter pour le tester.
+* __Bonus__: Si vous avez fait le dockerfile, rajoutez dans le readme les commandes à exécuter pour le tester.
 
 <a name="myfootnote1">1</a>: Les données ont été récoltées  pour l'article suivant:  
  [Generating Personalized Recipes from Historical User Preferences
