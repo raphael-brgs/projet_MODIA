@@ -40,7 +40,7 @@ Ce fichier sera exécuté comme un script et devra:
     * Récupérer le chemin d'un fichier de test contenant 10 interactions (```test_script.csv```) en arguments de la commande qui exécutera le script 
     *   Afficher les prédictions pour les 10 interactions du dataset de test.  
 
-* Dans un fichier recommender_app.py , utilisez gradio pour créer une application permettant de prédire si un commentaire, entré par l'utilisateur est positif ou négatif.
+* Dans un fichier recommender_app.py , utilisez [gradio](https://gradio.app/) pour créer une application permettant de prédire si un commentaire, entré par l'utilisateur, est positif ou négatif (utilisez le composant [textbox](https://gradio.app/docs/#textbox)).
 
 *   En bonus créez un dockerfile permettant de lancer le script ou l'application gradio depuis n'importe quelle machine.
 
