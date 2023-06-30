@@ -1,0 +1,12 @@
+gdown
+argparse
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+nltk
+torch==1.13.1
+gradio
+transformers
+xformers

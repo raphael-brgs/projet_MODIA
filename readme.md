@@ -57,3 +57,20 @@ Pour le livrable:
  [Generating Personalized Recipes from Historical User Preferences
 Bodhisattwa Prasad Majumder*, Shuyang Li*, Jianmo Ni, Julian McAuley
 EMNLP, 2019](https://www.aclweb.org/anthology/D19-1613/)
+
+
+## Members
+- Mehdi Benjid
+- Raphaël Bourgeois
+- Sonia Garrouch
+- Julien Kaszuba
+
+## Commands
+Command to build the image (the Dockerfile has to be in the current directory): 
+```docker build -t food_com .```
+
+Command to lauch main.py with the container :
+```docker run food_com python main.py weights.pth test_script.csv``` 
+
+Command to lauch recommander.py with the container :
+```docker run food_com python recommander_app.py``` 
